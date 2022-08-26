@@ -75,7 +75,7 @@ main div {
   box-shadow: 3px 3px 3px rgb(221, 219, 219);
 }
 .aciklama a.bir {
-  border: 1px solid gainsboro;
+  /* border: 1px solid gainsboro; */
   border-radius: 5px;
   text-decoration: none;
   margin: 0 8px;
@@ -84,7 +84,7 @@ main div {
   padding: 8px;
 }
 .aciklama a.iki {
-  border: 1px solid gainsboro;
+  /* border: 1px solid gainsboro; */
   border-radius: 5px;
   text-decoration: none;
   margin: 0 8px;
