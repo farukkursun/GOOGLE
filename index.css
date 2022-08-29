@@ -10,9 +10,50 @@ main {
   top: calc(40% - 10rem);
   /* border: 1px solid red; */
 }
-main div {
-  margin-top: 2rem;
+
+.search-bar {
+  margin: 2rem auto;
+  height: 40px;
+  width: 500px;
+  border: 1px solid #d3d3d3;
+  border-radius: 25px;
 }
+.input {
+  padding-left: 10px;
+  width: 80%;
+  border: none;
+  /* ilk etapta input un border igitsin */
+  outline: none;
+  /* input a veri girisi yapildigind aolusan border gitsin */
+  font-size: 14px;
+}
+.buyutec,
+.mikrofon {
+  margin-top: 5px;
+  vertical-align: middle;
+  /* bütün kardesleri ayni hizada ortalar */
+}
+.main-button-div button {
+  margin: 11px 4px;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+p a {
+  color: blue;
+}
+.right button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  width: 4.5rem;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 .baslik {
   display: flex;
   justify-content: space-between;
@@ -30,14 +71,7 @@ main div {
   /* color: black; */
   padding: 6px;
 }
-.mavi {
-  background-color: rgb(30, 91, 221);
-  color: white;
-  font-weight: 800;
-}
-.mavi:hover {
-  box-shadow: 2px 2px 3px rgb(209, 202, 202);
-}
+
 .acizili {
   color: black;
 }
@@ -50,58 +84,7 @@ main div {
 .bulanik:hover {
   opacity: 100%;
 }
-.arama {
-  border: 1px solid lightgrey;
-  border-radius: 25px;
 
-  /* display: inline-block; */
-  display: flex;
-  padding: 8px ;
-
-  margin-left: 5rem;
-
-  width: 30rem;
-  height: 2.8rem;
-}
-.ara {
-  margin: 0 1rem;
-  padding-bottom: 4px;
-}
-.mik {
-  margin: 0 23rem;
-}
-
-.arama:hover {
-  box-shadow: 3px 3px 3px rgb(221, 219, 219);
-}
-.aciklama a.bir {
-  /* border: 1px solid gainsboro; */
-  border-radius: 5px;
-  text-decoration: none;
-  margin: 0 8px;
-  background-color: rgb(238, 238, 238);
-  color: gray;
-  padding: 8px;
-}
-.aciklama a.iki {
-  /* border: 1px solid gainsboro; */
-  border-radius: 5px;
-  text-decoration: none;
-  margin: 0 8px;
-  background-color: rgb(238, 238, 238);
-  color: gray;
-  padding: 8px;
-}
-.aciklama a.bir:hover {
-  border: 1px solid rgb(214, 214, 214);
-
-  box-shadow: 1px 1px whitesmoke;
-}
-.aciklama a.iki:hover {
-   border: 1px solid rgb(214, 214, 214);
-
-  box-shadow: 1px 1px whitesmoke;
-}
 .son {
   padding: 10px;
   border-top: 1px solid lightgray;
@@ -130,7 +113,6 @@ footer {
 
   width: 100%;
 }
-span a{
+span a {
   color: rgb(25, 25, 150);
-
 }
