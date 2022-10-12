@@ -5,7 +5,7 @@ https://farukkursun.github.io/GOOGLE/
 https://github.com/farukkursun/GOOGLE.git
 
 ## Description
-Project aims to create google landing page.
+Google landing page created in this project.
 
 
 ```
@@ -29,4 +29,4 @@ Project aims to create google landing page.
 - HTML
 - CSS
 
-![proje image](https://github.com/farukkursun/GOOGLE/imagegoogle.png)
+![proje image](https://raw.githubusercontent.com/farukkursun/GOOGLE/master/imagegooglepage.png)
